@@ -4,7 +4,7 @@ project('polygon', 'c',
 
 # These arguments are only used to build the shared library
 # not the executables that use the library.
-lib_args = ['-DBUILDING_GEGLSKETCH']
+lib_args = ['-DBUILDING_GEGLNEWFILTER']
 
 gegl = dependency('gegl-0.4', required : false)
 if not gegl.found()
